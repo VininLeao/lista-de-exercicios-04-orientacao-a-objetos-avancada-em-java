@@ -16,6 +16,30 @@ public class Pombo extends AnimalVoadorAB {
         System.out.println(nome + " comeu 1 unidade de comida.");
     }
 
+    public int getComidaIngerida() {
+        return comidaIngerida;
+    }
+
+    public void setComidaIngerida(int comidaIngerida) {
+        this.comidaIngerida = comidaIngerida;
+    }
+
+    public int getHorasDormidas() {
+        return horasDormidas;
+    }
+
+    public void setHorasDormidas(int horasDormidas) {
+        this.horasDormidas = horasDormidas;
+    }
+
+    public int getDistanciaVoo() {
+        return distanciaVoo;
+    }
+
+    public void setDistanciaVoo(int distanciaVoo) {
+        this.distanciaVoo = distanciaVoo;
+    }
+
     @Override
     public void moverse() {
         voar();

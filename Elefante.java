@@ -10,6 +10,30 @@ public class Elefante extends AnimalTerrestreAB {
         this.horasDormidas = 0;
     }
 
+    public int getComidaIngerida() {
+        return comidaIngerida;
+    }
+
+    public void setComidaIngerida(int comidaIngerida) {
+        this.comidaIngerida = comidaIngerida;
+    }
+
+    public int getCaminhoPercorrido() {
+        return caminhoPercorrido;
+    }
+
+    public void setCaminhoPercorrido(int caminhoPercorrido) {
+        this.caminhoPercorrido = caminhoPercorrido;
+    }
+
+    public int getHorasDormidas() {
+        return horasDormidas;
+    }
+
+    public void setHorasDormidas(int horasDormidas) {
+        this.horasDormidas = horasDormidas;
+    }
+
     @Override
     public void comer() {
         comidaIngerida += 50;

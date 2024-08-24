@@ -10,6 +10,30 @@ public class Peixe extends AnimalMarinhoAB {
         this.horasDormidas = 0;
     }
 
+    public int getComidaIngerida() {
+        return comidaIngerida;
+    }
+
+    public void setComidaIngerida(int comidaIngerida) {
+        this.comidaIngerida = comidaIngerida;
+    }
+
+    public int getDistanciaNadada() {
+        return distanciaNadada;
+    }
+
+    public void setDistanciaNadada(int distanciaNadada) {
+        this.distanciaNadada = distanciaNadada;
+    }
+
+    public int getHorasDormidas() {
+        return horasDormidas;
+    }
+
+    public void setHorasDormidas(int horasDormidas) {
+        this.horasDormidas = horasDormidas;
+    }
+
     @Override
     public void comer() {
         comidaIngerida += 2;

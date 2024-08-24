@@ -16,6 +16,30 @@ public class Cachorro extends AnimalTerrestreAB {
         System.out.println(nome + " comeu 5 unidades de comida.");
     }
 
+    public int getComidaIngerida() {
+        return comidaIngerida;
+    }
+
+    public void setComidaIngerida(int comidaIngerida) {
+        this.comidaIngerida = comidaIngerida;
+    }
+
+    public int getCaminhoPercorrido() {
+        return caminhoPercorrido;
+    }
+
+    public void setCaminhoPercorrido(int caminhoPercorrido) {
+        this.caminhoPercorrido = caminhoPercorrido;
+    }
+
+    public int getHorasDormidas() {
+        return horasDormidas;
+    }
+
+    public void setHorasDormidas(int horasDormidas) {
+        this.horasDormidas = horasDormidas;
+    }
+
     @Override
     public void moverse() {
         caminhoPercorrido += 10;

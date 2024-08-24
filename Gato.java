@@ -10,6 +10,30 @@ public class Gato extends AnimalTerrestreAB {
         this.horasDormidas = 0;
     }
 
+    public int getComidaIngerida() {
+        return comidaIngerida;
+    }
+
+    public void setComidaIngerida(int comidaIngerida) {
+        this.comidaIngerida = comidaIngerida;
+    }
+
+    public int getHorasDormidas() {
+        return horasDormidas;
+    }
+
+    public void setHorasDormidas(int horasDormidas) {
+        this.horasDormidas = horasDormidas;
+    }
+
+    public int getCaminhoPercorrido() {
+        return caminhoPercorrido;
+    }
+
+    public void setCaminhoPercorrido(int caminhoPercorrido) {
+        this.caminhoPercorrido = caminhoPercorrido;
+    }
+
     @Override
     public void comer() {
         comidaIngerida += 3;
